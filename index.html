@@ -17,11 +17,15 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Landed</a></h1>
+					<h1 id="logo"><a href="index.html">Home</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
+							<li><a href="#aboutme">About Me</a></li>
+              <li><a href="#experiences">Experiences</a></li>
+              <!-- <li><a href="#projects">Projects</a></li> -->
+              <!--Add another li that links to a PDF of my resume, resume/resume.pdf -->
+              <li><a href="resume/resume.pdf">Resume</a></li>
+							<!-- <li>
 								<a href="#">Layouts</a>
 								<ul>
 									<li><a href="left-sidebar.html">Left Sidebar</a></li>
@@ -37,9 +41,10 @@
 										</ul>
 									</li>
 								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
+							</li> -->
+							<li><a href="#projects">Projects</a></li>
+              <!-- <li><a href="teaching.html">Teaching</a></li> -->
+							<!-- <li><a href="#" class="button primary">Sign Up</a></li> -->
 						</ul>
 					</nav>
 				</header>
@@ -48,49 +53,62 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>The future has landed</h2>
-							<p>And there are no hoverboards or flying cars.<br />
-							Just apps. Lots of mother flipping apps.</p>
+							<h2>Hi, I'm Shyam!</h2>
+							<p>Computer science enthusiast, lifelong learner <br />
+							<!-- Just apps. Lots of mother flipping apps.</p> -->
 						</header>
-						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+						<span class="image"><img src="images/personalpic.png" alt="" /></span>
 					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
+					<a href="#aboutme" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+				<section id="aboutme" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/Levine-west-facade.jpg" alt="" /></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
 								<div class="col-4 col-12-medium">
 									<header>
-										<h2>Odio faucibus ipsum integer consequat</h2>
-										<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
+										<h2>About Me</h2>
+										<!-- <p> I'm studying Computer Science at the University of Pennsylvania, with minors in mathematics, statistics, 
+                      and data science! </p> -->
 									</header>
 								</div>
-								<div class="col-4 col-12-medium">
-									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-									augue varius tempus lobortis porttitor accumsan consequat
-									adipiscing lorem dolor.</p>
+								<div class="col-8 col-12-medium">
+									<p>I am currently a senior at the University of Pennsylvania pursuing a BSE and
+                    an accelerated master's in Computer Science, with 
+                    minors in mathematics, statistics, and data science. I enjoy 
+                    working across all layers of the computing stack from OSes and compilers
+                    all the way up to distributed systems development and machine learning. Thinking about ways
+                  to apply "abstract" concepts to real-world problems excites me, from using linear programming and optimization 
+                  theory to solve intricate scheduling problems, to leveraging graph coloring to optimize register allocation algorithms 
+                  in compilers. Outside of CS, I like to immerse myself in the mathematically inspired rhythms 
+                  of the tabla (an Indian percussion instrument), hike, travel, and play basketball.
+                  </p>
+                  <p>I am especially passionate about teaching and being able to explain seemingly difficult concepts in a straightforward 
+                    and illustrative manner. I have been a teaching assistant for a few courses
+                    (both graduate and undergraduate) at the University of Pennsylvania over the past few semesters, namely:</p>
+                    <ul>
+                      <li><a href="https://www.cis.upenn.edu/~cis5050/"><b>CIS 5050: Distributed Systems (Spring 2024)</b></a></li>
+                      <li><a href="https://www.seas.upenn.edu/~cis3800/23fa/"><b>
+                        CIS 3800: Operating Systems (Fall 2023, Spring 2024)
+                      </b></a></li>
+                      <li><b>CIT 5950: Systems Programming (Spring 2023)</b></li>
+                    </ul>
+                  </p>
 								</div>
-								<div class="col-4 col-12-medium">
-									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
-									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-									ipsum dolor nullam.</p>
-								</div>
+								<!-- <div class="col-4 col-12-medium">
+									<p> </p>
+								</div> -->
 							</div>
 						</div>
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
+					<a href="#experiences" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
+				<!-- <section id="two" class="spotlight style2 right">
 					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header>
@@ -103,10 +121,10 @@
 						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
+				</section> -->
 
 			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
+				<!-- <section id="three" class="spotlight style3 left">
 					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
 					<div class="content">
 						<header>
@@ -119,33 +137,55 @@
 						</ul>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
+				</section>  -->
 
 			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
+				<section id="experiences" class="wrapper style1 special fade-up bottom">
 					<div class="container">
 						<header class="major">
-							<h2>Accumsan sed tempus adipiscing blandit</h2>
-							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+							<h2>An Overview of My Recent Experiences</h2>
+							<!-- <p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p> -->
 						</header>
 						<div class="box alt">
 							<div class="row gtr-uniform">
 								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-chart-area"></span>
-									<h3>Ipsum sed commodo</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<!-- <span class="icon solid alt major fa-chart-area"></span> -->
+                  <img class="icon solid alt major" src="images/amazon.png" alt="" />
+									<h3>Software Development Engineer Intern @ Amazon Alexa </h3>
+									<p>Developed a massively scalable service (supporting 8,000+ TPS) to manage 
+                    data involved in the Entity Resolution (ER) pipeline, resulting
+                    in a 30% reduction in cost.
+                  </p>
+								</section>
+                <!-- <section class="col-2 col-6-medium col-12-xsmall">
+								</section> -->
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<!-- <span class="icon solid alt major fa-comment"></span> -->
+                  <img class="icon solid alt major" src="images/moderne.jpeg" alt="" />
+									<h3>Software Engineer @ Moderne</h3>
+									<p>Focused on OpenRewrite recipe development and expanding OpenRewrite's language
+                    support to beyond Java </p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
-									<h3>Eleifend lorem ornare</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<!-- <span class="icon solid alt major fa-flask"></span> -->
+                  <img class="icon solid alt major" src="images/human2.jpeg" alt="" />
+									<h3>Software Engineering and OSS Security Research Intern @ HUMAN</h3>
+									<p> Contributed to the OpenRewrite project, a format-preserving AST transformer for scalable code refactoring. This work and its application in
+                    automating the remediation of security vulnerabilities across open source alongside 
+                    Github's CodeQL was presented at Black Hat and DEF CON in August 2023. </p>
 								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-flask"></span>
-									<h3>Cubilia cep lobortis</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+                <!-- <section class="col-3 col-6-medium col-12-xsmall">
 								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
+                <section class="col-6 col-12-xsmall">
+                  <img class="icon solid alt major" src="images/penn.jpeg" alt="" />
+                  <h3>Teaching Assistant @ University of Pennsylvania</h3>
+                  <p>CIS 5050 - Distributed Systems (Spring 2024) <br> 
+                    CIS 3800 - Operating Systems (Fall 2023, Spring 2024) <br> 
+                    CIT 5950 - Systems Programming (Spring 2023)</p>
+                </section>
+                <section class="col-3 col-6-medium col-12-xsmall">
+								</section> -->
+								<!-- <section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-paper-plane"></span>
 									<h3>Non semper interdum</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
@@ -159,19 +199,139 @@
 									<span class="icon solid alt major fa-lock"></span>
 									<h3>Massa arcu accumsan</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
+								</section> -->
 							</div>
 						</div>
-						<footer class="major">
+						<!-- <footer class="major">
 							<ul class="actions special">
 								<li><a href="#" class="button">Magna sed feugiat</a></li>
 							</ul>
-						</footer>
+						</footer> -->
 					</div>
+          <a href="#projects" class="goto-next scrolly">Next</a>
 				</section>
 
+      <!-- Projects -->
+      <section id="projects" class="wrapper style1">
+        <div class="container">
+          <header class="major">
+            <h2>Projects</h2>
+            <!-- <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p> -->
+          </header>
+
+          <!-- Text -->
+            <section>
+              <h3>Tidal Translator (November - December 2023)</h3>
+
+              <!-- Add two buttons, GitHub and YouTube with font awesome icons -->
+              <ul class="actions">
+                <li><a href="https://github.com/robbiewyu/tidal-translator" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://youtu.be/jq6qej9phO8" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+              </ul>
+              <p>Built a transpiler from Tidal Cycles (a DSL to create musical compositions) to LilyPond (a DSL for writing musical score). 
+                Developed an interactive environment for real-time score generation, which accepts Tidal patterns among other commands;
+                upon the termination of an interactive session, the Tidal composition provided is exported as a Lilypond file. 
+                Utilized monadic QuickCheck for round-trip testing to verify correctness of the transpiler. </p>
+
+              <!-- Tech stack use font awesome for microchip icon -->
+              <a href="#" class="icon solid fa-server"> Haskell, Stack, QuickCheck <span class="label"></span></a>
+
+
+            
+              <hr />
+
+              <h3>PennCloud (April - May 2023)</h3>
+              <p> Designed and implemented a scalable, fault-tolerant distributed system hosting a platform akin to Google Apps (with 
+                storage and SMTP-driven email services), backed by a simplified, BigTable-type data store using primary-based replication. 
+                Employed a frontend load balancer and backend master node to redirect requests, manage nodes, and track node statuses. 
+                Utilized gRPC for inter-server communication and multithreading to handle multiple simultaneous requests</p>
+              
+              <a href="#" class="icon solid fa-server"> C, C++, gRPC, TypeScript, React, HTML/CSS, Make, Bash <span class="label"></span></a>
+
+
+              <hr />
+
+              <h3>LC4 Processor (January - May 2023)</h3>
+              <p> Designed and implemented a 2-way superscalar processor with a 5-stage pipeline with optimized bypass and stall logic for
+                a simple RISC instruction set architecture; leveraged the carry-lookahead adder for efficiency in the ALU. 
+                Optimized the implementation of the processor to achieve a time closure frequency of 15.625 MHz.</p>
+
+              <a href="#" class="icon solid fa-server"> Vivado Verilog HDL, Zedboard <span class="label"></span></a>
+
+              
+
+              <hr />
+
+              <h3>PennOS (November - December 2022)</h3>
+              <p> Implemented a Unix-like, single-process OS with a round-robin priority scheduler using the ucontext library. 
+                Upon boot and mounting of PennFAT file system, a shell is executed, supporting foreground/background processes,
+                synchronous child waiting, redirection, and built-ins (including <code>cat</code>, <code>sleep</code>, 
+                <code>touch</code>, etc.)</p>
+              
+              <a href="#" class="icon solid fa-server"> C, Make, Bash <span class="label"></span></a>
+
+              <hr />
+              
+              <h3>Oat Compiler (Feburary - April 2022) </h3>
+              <p>Developed a fully functional compiler for Oat, a type-safe language (similar to C) featuring structs, function pointers, 
+                arrays, and subtyping, using the LLVM compiler infrastructure (with ocamllex and menhir used for lexing 
+                and parsing). Implemented optimizations at the LLVM level using several dataflow analyses, 
+                including liveness, alias, and constant propagation analysis, to allow for constant 
+                folding and dead code elimination. Utilized Kempe’s graph coloring algorithm within the 
+                compiler backend for register allocation. </p>
+              
+              <a href="#" class="icon solid fa-server"> OCaml, ocamllex, menhir, LLVM, x86 Assembly, C <span class="label"></span></a>
+
+              <hr />
+
+              <h3>COVID-19 Treatment Prioritizer (November - December 2021) </h3>
+              <p> 
+                Modelled patient admittance to the ICU (i.e., the severity of a patient’s 
+                condition) using a voting ensemble of classifiers with optimized hyperparameters, 
+                including linear SVM, KNN, logistic regression, feedforward neural networks, and 
+                random forests, achieving an average of 90% accuracy on test data. </p>
+              
+              <a href="#" class="icon solid fa-server"> Python, Scikit-learn, MXNet, Spark, Pandas, NumPy, Seaborn, Matplotlib <span class="label"></span></a>
+
+
+              <hr />
+
+              <h3>Java Blokus (December 2020) </h3>
+              
+              <ul class="actions">
+                <li><a href="https://github.com/smehta23/Blokus" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+              </ul>
+              <p> Developed the popular board game Blokus with single- and multi-player support, leveraging sockets to enable online gameplay. </p>
+
+              <a href="#" class="icon solid fa-server"> Java, Java Swing, JUnit, Gradle <span class="label"></span></a>
+
+              
+              <hr />
+      </section>
+
+      <!-- Teaching -->
+      <!-- <section id="teaching" class="wrapper style1">
+        <div class="container">
+          <header class="major">
+            <h2>Teaching</h2>
+          </header>
+
+          <section>
+            <div class="row gtr-uniform">
+              <section class="col-6 col-12-medium col-12-xsmall">
+                <img class="icon solid alt major" src="images/penn.jpeg" alt="" />
+            <h3>Teaching Assistant @ University of Pennsylvania</h3>
+            <p> <b>CIS 5050 - Distributed Systems (Spring 2024)</b> <br> 
+              <b>CIS 3800 - Operating Systems (Fall 2023, Spring 2024)</b> <br> 
+              <b>CIT 5950 - Systems Programming (Spring 2023)</b> </p>
+              </section>
+            </div>
+          </section>
+        </div> -->
+
+
 			<!-- Five -->
-				<section id="five" class="wrapper style2 special fade">
+				<!-- <section id="five" class="wrapper style2 special fade">
 					<div class="container">
 						<header>
 							<h2>Magna faucibus lorem diam</h2>
@@ -184,20 +344,20 @@
 							</div>
 						</form>
 					</div>
-				</section>
+				</section> -->
 
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+						<li><a href="https://www.linkedin.com/in/mehta-shyam/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<!-- <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
+						<li><a href="https://github.com/smehta23" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto: shyam.mehta@hotmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Shyam Mehta &copy; 2024. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
